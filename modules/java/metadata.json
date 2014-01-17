@@ -1,0 +1,26 @@
+{
+  "description": "This puppet module is based on bcarpio/java_jdk 0.0.2. bcarpio/java_jdk does not set path for exec object. Although the git repos of that module is merged with a pull request to solve that problem, its puppet module on forge is not updated accordingly. This module is uploaded to solve that.",
+  "summary": "Java puppet module based on bcarpio/java_jdk.",
+  "source": "UNKNOWN",
+  "version": "0.0.1",
+  "license": "MIT License",
+  "types": [
+
+  ],
+  "dependencies": [
+
+  ],
+  "checksums": {
+    "manifests/params.pp": "dd7ceb0a7feafb15ba74ddf82676d9b9",
+    "README": "c2ddd39e469f0e5b25bd7da1b39d2a21",
+    "tests/init.pp": "01ed568a64f272ad728054341a562406",
+    "Modulefile": "fc3bc9ab30c41c860a1c0c962ffc4ebf",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "manifests/init.pp": "0f8067929c7b90bcb9efc3753631d7ed",
+    "LICENSE": "e37441572d2f74ca884c994b6a9c8834",
+    "spec/spec_helper.rb": "ca19ec4f451ebc7fdb035b52eae6e909"
+  },
+  "name": "viirya-java",
+  "project_page": "UNKNOWN",
+  "author": "Liang-Chi Hsieh"
+}
