@@ -1,4 +1,6 @@
-vagrant-webapp
+vagrant-hdfs
 ==============
 
-I am toying with vagrant
+Spin up a Hadoop/Hbase cluster in an isolated vagrant environment.
+
+
