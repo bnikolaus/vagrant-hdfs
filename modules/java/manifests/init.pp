@@ -29,7 +29,7 @@ class java {
 		refreshonly => true,
 		subscribe => File["java-source-tgz"],
 		before => File["java-app-dir"],
-        path    => ["/bin", "/usr/bin", "/usr/sbin"],
+    path    => ["/bin", "/usr/bin", "/usr/sbin"],
 	}
 	
 	file { "${java::params::java_base}/jdk${java::params::java_version}":
